@@ -14,7 +14,7 @@ Version `2.0.0` tracks the source constitution.
   "version": 1,
   "skills": {
     "indonesian-product-copy": {
-      "source": "mahardikalgw/indonesian-product-copy",
+      "source": "mahardikalgw/ruby-indonesian-product-copy",
       "sourceType": "github",
       "skillPath": "SKILL.md"
     }
@@ -25,8 +25,8 @@ Version `2.0.0` tracks the source constitution.
 Or clone and symlink:
 
 ```bash
-git clone git@github.com:mahardikalgw/indonesian-product-copy.git
-ln -s "$PWD/indonesian-product-copy" .claude/skills/indonesian-product-copy
+git clone git@github.com:mahardikalgw/ruby-indonesian-product-copy.git
+ln -s "$PWD/ruby-indonesian-product-copy" .claude/skills/indonesian-product-copy
 ```
 
 ## When to activate
@@ -39,8 +39,9 @@ ln -s "$PWD/indonesian-product-copy" .claude/skills/indonesian-product-copy
 ## What's inside
 
 ```
-indonesian-product-copy/
+ruby-indonesian-product-copy/
   SKILL.md
+  bin/check-skill
   references/copy-rules.md
 ```
 
@@ -59,8 +60,8 @@ repository — that vendored scripts still match it byte for byte. Runs in CI on
 
 ## Related skills
 
-- [`inertia-vertical-slice`](https://github.com/mahardikalgw/inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
-- [`scoped-authorization`](https://github.com/mahardikalgw/scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
+- [`inertia-vertical-slice`](https://github.com/mahardikalgw/ruby-inertia-vertical-slice) — route → skinny controller → query/service → typed props → Inertia page → test
+- [`scoped-authorization`](https://github.com/mahardikalgw/ruby-scoped-authorization) — scopes, 404-not-403, explicit public opt-outs, isolation by construction
 
 ## Licence
 
